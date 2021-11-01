@@ -24,7 +24,23 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="img/hero/favicon.ico" />
 
-    
+    <!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1136361433522935');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1136361433522935&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
   </head>
   <body>
     
@@ -33,14 +49,36 @@
       <!-- <div class="header__left"><a class="menu-toggle ps-modal-link" href="#menu-fullscreen"><span></span></a> -->
       
       <div class="header__left"><span></span></a>
-        <p><i class="fa fa-clock-o"></i> Segunda à Domingo 09:00 - 20:00</p>
-<!--           <br><i class="fa fa-clock-o"></i> Domingos e Feriados 09:30 - 19:00  -->
-        
+        <p><i class="fa fa-clock-o"></i> Segunda à Domingo 09:00 - 20:00 </p>
+<!--           <i class="fa fa-clock-o"></i> Domingos e Feriados 09:30 - 19:00 
+         -->
       </div>
       
       <div class="header__center"><a class="ps-logo" href="https://api.whatsapp.com/send?phone=5521987600112&text=" target="_blank"><img src="img/logo.png" alt=""></a></div>
       <div class="header__right">
-        
+        <!-- <div class="header__actions"><a class="ps-search-btn" href="#"><i class="fa fa-search"></i></a><a href="#"><i class="fa fa-heart-o"></i></a>
+          <div class="ps-cart--mini"><a class="ps-cart__toggle" href="#"><i class="fa fa-shopping-basket"></i><span><i>2</i></span></a>
+            <div class="ps-cart__content">
+              <div class="ps-cart__items">
+                <div class="ps-product--mini-cart">
+                  <div class="ps-product__thumbnail"><a href="#"><img src="img/product/12.png" alt=""></a></div>
+                  <div class="ps-product__content"><span class="ps-btn--close"></span><a class="ps-product__title" href="product-default.html">Jean Woman Summer</a>
+                    <p><strong>Quantity: 1</strong></p><small>$12.00</small>
+                  </div>
+                </div>
+                <div class="ps-product--mini-cart">
+                  <div class="ps-product__thumbnail"><a href="#"><img src="img/product/13.png" alt=""></a></div>
+                  <div class="ps-product__content"><span class="ps-btn--close"></span><a class="ps-product__title" href="product-default.html">Jean Woman Summer</a>
+                    <p><strong>Quantity: 1</strong></p><small>$12.00</small>
+                  </div>
+                </div>
+              </div>
+              <div class="ps-cart__footer">
+                <h3>Sub Total:<strong>$48.00</strong></h3>
+                <figure><a class="ps-btn" href="shopping-cart.html">View Cart</a><a class="ps-btn ps-btn--dark" href="checkout.html">Checkout</a></figure>
+              </div>
+            </div>
+          </div> -->
         </div>
       </div>
     </header>
@@ -53,7 +91,8 @@
             </li>
             <li><a href="about-us.html">Sobre</a>
             </li>
-            
+            <!-- <li><a href="about-us.html">Páginas</a>
+            </li> -->
             <li><a href="blog-grid.html">Novidades</a>
             </li>
             <li><a href="contact-us.html">Contato</a>
@@ -63,20 +102,142 @@
         <div class="header__bottom">
           <ul class="ps-list--social">
             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus"></i></a></li> -->
             <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-            
+            <!-- <li><a href="#"><i class="fa fa-youtube-play"></i></a></li> -->
           </ul>
-          
+          <!-- <p><a href="https://www.templateshub.net" target="_blank">Templates Hub</a></p> -->
         </div>
       </div>
     </div>
     <header class="header header--mobile" data-sticky="false">
       <div class="header__content">
+        <!-- <div class="header__left"><a class="ps-toggle--sidebar" href="#navigation-mobile"><i class="fa fa-bars"></i></a></div> -->
         <div class="header__center"><a class="ps-logo" href="#"><img src="img/logo.png" alt=""></a></div>
-        
+        <!-- <div class="header__right">
+          <div class="header__actions"><a href="#"><i class="fa fa-heart-o"></i></a></div>
+        </div> -->
       </div>
     </header>
-    
+    <!-- <div class="ps-panel--sidebar" id="cart-mobile">
+      <div class="ps-panel__header">
+        <h3>Shopping Cart</h3>
+      </div>
+      <div class="navigation__content">
+        <div class="ps-cart--mobile">
+          <div class="ps-cart__content">
+            <div class="ps-cart__items">
+              <div class="ps-product--mini-cart">
+                <div class="ps-product__thumbnail"><a href="#"><img src="img/product/12.png" alt=""></a></div>
+                <div class="ps-product__content"><span class="ps-btn--close"></span><a class="ps-product__title" href="product-default.html">Jean Woman Summer</a>
+                  <p><strong>Quantity: 1</strong></p><small>$12.00</small>
+                </div>
+              </div>
+              <div class="ps-product--mini-cart">
+                <div class="ps-product__thumbnail"><a href="#"><img src="img/product/13.png" alt=""></a></div>
+                <div class="ps-product__content"><span class="ps-btn--close"></span><a class="ps-product__title" href="product-default.html">Jean Woman Summer</a>
+                  <p><strong>Quantity: 1</strong></p><small>$12.00</small>
+                </div>
+              </div>
+            </div>
+            <div class="ps-cart__footer">
+              <h3>Sub Total:<strong>$48.00</strong></h3>
+              <figure><a class="ps-btn" href="shopping-cart.html">View Cart</a><a class="ps-btn ps-btn--dark" href="checkout.html">Checkout</a></figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- <div class="ps-panel--sidebar" id="navigation-mobile">
+      <div class="ps-panel__header">
+        <h3>Menu</h3>
+      </div>
+      <div class="ps-panel__content">
+        <ul class="menu--mobile">
+          <li class="current-menu-item menu-item-has-children"><a href="index-2.html">Home</a><span class="sub-toggle"></span>
+            <ul class="sub-menu">
+              <li><a href="index-2.html">Homepage 1</a>
+              </li>
+              <li><a href="homepage-2.html">Homepage 2</a>
+              </li>
+              <li><a href="homepage-3.html">Homepage 3</a>
+              </li>
+              <li><a href="homepage-4.html">Homepage 4</a>
+              </li>
+              <li><a href="homepage-5.html">Homepage 5</a>
+              </li>
+              <li><a href="homepage-6.html">Homepage 6</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item-has-children"><a href="shop-default.html">Shop</a><span class="sub-toggle"></span>
+            <ul class="sub-menu">
+              <li><a href="shop-default.html">Shop Default</a>
+              </li>
+              <li><a href="shop-fullwidth.html">Shop Fullwidth</a>
+              </li>
+              <li><a href="shop-fullwidth-no-sidebar.html">Shop Fullwidth No Sidebar</a>
+              </li>
+              <li><a href="shop-no-sidebar.html">Shop No Sidebar</a>
+              </li>
+              <li><a href="shop-sidebar-right.html">Shop Sidebar Right</a>
+              </li>
+              <li><a href="shop-horizontal.html">Shop Horizontal</a>
+              </li>
+              <li class="menu-item-has-children"><a href="product-default.html">Product</a><span class="sub-toggle"><i class="fa fa-angle-down"></i></span>
+                <ul class="sub-menu">
+                  <li><a href="product-default.html">Product Default</a>
+                  </li>
+                  <li><a href="product-background.html">Product Background</a>
+                  </li>
+                  <li><a href="product-background-center.html">Product Background Center</a>
+                  </li>
+                  <li><a href="product-background-center-2.html">Product Background Center 2</a>
+                  </li>
+                  <li><a href="product-sticky.html">Product Sticky</a>
+                  </li>
+                  <li><a href="product-thumbnail-left.html">Product Thumbnail Left</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="about-us.html">About</a>
+          </li>
+          <li class="current-menu-item menu-item-has-children"><a href="about-us.html">Pages</a><span class="sub-toggle"></span>
+            <ul class="sub-menu">
+              <li><a href="about-us.html">About</a>
+              </li>
+              <li><a href="homepage-2.html">Checkout</a>
+              </li>
+              <li><a href="whishlist.html">Whishlist</a>
+              </li>
+              <li><a href="homepage-4.html">Compare</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item-has-children"><a href="blog-grid.html">News</a><span class="sub-toggle"></span>
+            <ul class="sub-menu">
+              <li><a href="blog-grid.html">Blog grid</a>
+              </li>
+              <li><a href="blog-grid-full-width.html">Blog grid fullwidth</a>
+              </li>
+              <li><a href="blog-list.html">Blog List</a>
+              </li>
+              <li><a href="blog-detail.html">Blog Detail</a>
+              </li>
+            </ul>
+          </li>
+          <li><a href="contact-us.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="navigation--list">
+      <div class="navigation__content"><a class="navigation__item active" href="index-2.html"><i class="fa fa-home"></i></a><a class="navigation__item ps-toggle--sidebar" href="#navigation-mobile"><i class="fa fa-bars"></i></a><a class="navigation__item ps-toggle--sidebar" href="#search-sidebar"><i class="fa fa-search"></i></a><a class="navigation__item ps-toggle--sidebar" href="#cart-mobile"><i class="fa fa-shopping-basket"></i></a></div>
+    </div> -->
 
 
     <!--include search-sidebar-->
@@ -116,28 +277,95 @@
               </div>
               <div class="ps-section__content">
                 <p>Nosso pão é feito com fermento natural que é cultivado de forma graciosamente artesanal, o que o deixa saboroso e com uma textura diferenciada, um alimento que, se você ainda não conhece, com certeza, vale a pena experimentar.<br> Nossa produção é exclusivamente sob encomenda para que você possa comer os nossos pães sempre fresquinhos.<br> <u>A entrega é feita dentro das próximas 24 horas.</u></p>
-                
+                <!-- <div class="ps-section__image"><img src="img/homepage/home-1/signature.png" alt=""></div> -->
+                <!-- <h5><span>Marry Lulie</span> - Ceo Chikery</h5> -->
               </div>
             </div>
           </div>
         </div>
       </div>
-      
+      <!-- duplicado -->
+      <!-- <div class="ps-section ps-home-about bg--cover" data-background="img/bg/home-about.jpg">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 ">
+              <div class="ps-section__image"><img src="img/homepage/home-1/home-about.png" alt=""></div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 ">
+              <div class="ps-section__header">
+                <p>Bem Vindos à Viepann</p>
+                <h3>Acreditamos na Saúde e no Bem-Estar</h3><i class="chikery-tt3"></i>
+              </div>
+              <div class="ps-section__content">
+                <p>Nosso pão é feito com fermento natural que é cultivado de forma graciosamente artesanal, o que o deixa saboroso e com uma textura diferenciada, um alimento que, se você ainda não conhece, com certeza, vale a pena experimentar.</p> -->
+                <!-- <div class="ps-section__image"><img src="img/homepage/home-1/signature.png" alt=""></div> -->
+                <!-- <h5><span>Marry Lulie</span> - Ceo Chikery</h5> -->
+              <!-- </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
       <div id="homepage-3">
         <div class="ps-home-banner">
           <div class="" data-owl-auto="true" data-owl-loop="true" data-owl-speed="5000" data-owl-gap="0" data-owl-nav="true" data-owl-dots="true" data-owl-item="1" data-owl-item-xs="1" data-owl-item-sm="1" data-owl-item-md="1" data-owl-item-lg="1" data-owl-duration="1000" data-owl-mousedrag="off" data-owl-animate-in="fadeIn" data-owl-animate-out="fadeOut">
             <div class="ps-banner ps-banner--1 bg--cover" data-background="img/banner/home-3/01.jpg">
               <div class="ps-banner__content">
                 <h2 style="color: #FFFFFF;">Uma excelente alternativa ao pão tradicional para quem busca alimentos feitos com o mínimo de ingredientes artificiais.</h2>
+                <!-- <p>100% Natural, FRESH baked goods</p> -->
               </div>
             </div>
+            <!-- <div class="ps-banner ps-banner--1 bg--cover" data-background="img/banner/home-3/2.jpg"> -->
+              <!-- <div class="ps-banner__content"> -->
+                <!-- <h3>Super Delicious Cake</h3>
+                <p>100% Natural, FRESH baked goods</p> -->
               </div>
             </div>
+            <!-- <div class="ps-banner ps-banner--1 bg--cover" data-background="img/banner/home-3/3.jpg">
+              <div class="ps-banner__content">
+                <h3>Super Delicious Cake</h3>
+                <p>100% Natural, FRESH baked goods</p>
+              </div>
+            </div> -->
           </div>
         </div>
 
+      <!-- <div class="ps-section ps-home-best-services">
+        <div class="ps-section__left bg--cover" data-background="img/bg/home-1/home-best-services.jpg"></div>
+        <div class="ps-section__right">
+          <div class="ps-section__container">
+            <div class="ps-section__header"> -->
+              <!-- <p>CHIKERY CAKE</p> -->
+              <!-- <h3>Uma excelente alternativa ao pão tradicional para quem busca alimentos feitos com o mínimo de ingredientes artificiais.<br>Um dos maiores benefícios relatados por nossos clientes ao optarem por nosso pão é o de se livrarem de incômodos como azia e má digestão, por conta de sua lenta fermentação natural.</h3><i class="chikery-tt3"></i> -->
+            <!-- </div> -->
+            <!-- <div class="ps-section__content">
+              <p>Consectetur adipiscing elit. Curabitur sed turpis feugiat, sed vel nulla non neque. Nullamlacinia faucibus risus, a euismod lorem tincidunt id. Vestibulum imperdiet nibh vel magna lacinia ultricesimperdiet.</p>
+              <ul>
+                <li>BEST QUALITY</li>
+                <li>FAST DELIVERED</li>
+                <li>Event Cakes</li>
+                <li>INGREDIENT SUPPLY</li>
+                <li>ONLINE BOOKING</li>
+              </ul>
+            </div> -->
           </div>
           <footer class="ps-footer">
+            <!-- <div class="ps-footer__content">
+              <div class="container">
+                <div class="ps-footer__left">
+                  <form class="ps-form--footer-subscribe" action="#" method="get"> -->
+                    <!-- <h3>Receba em Primeira Mão</h3> -->
+                    <!-- <p>Inscreva-se e saiba de nossas novidades, ofertas e promoções antes de todos.</p> -->
+                    <!-- <div class="form-group--inside">
+                      <input class="form-control" type="text" placeholder="Seu email...">
+                      <button><i class="fa fa-arrow-right"></i></button>
+                    </div> -->
+                    <!-- <p>* Não fazemos Spam</p> -->
+                  <!-- </form>
+                </div> -->
+                <!-- <div class="ps-footer__center">
+                  <div class="ps-site-info"><a class="ps-logo" href="index-2.html"><img src="img/logo.png" alt=""></a> -->
+                    <!-- <p>Sua Padaria Artesanal Online. Peça e Receba em Casa.</p>
+                    <p>Bairro Adriana - Campo Grande - Rio de Janeiro</p> -->
       
                     
                   </div>
@@ -152,7 +380,16 @@
                 </div>
               </div>
             </div>
+            <!-- <div class="ps-footer__bottom">
+              <div class="container">
+                <ul class="ps-list--social"> -->
+                  
+                  
+                  <!-- <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                  
+                  <li><a href="#"><i class="fa fa-facebook"></i></a></li> -->
                 </ul>
+                <!-- <p><a href="https://www.templateshub.net" target="_blank">Templates Hub</a></p> -->
               </div>
             </div>
           </footer>
@@ -163,10 +400,21 @@
                   <div class="ps-banner__content">
                     <h2 style="color: #FFFFFF;">Um dos maiores benefícios relatados por nossos clientes ao optarem por nosso pão é o de se livrarem de incômodos como azia e má digestão, por conta de sua lenta fermentação natural.
                     </h2>
+                    <!-- <p>100% Natural, FRESH baked goods</p> -->
                   </div>
                 </div>
+                <!-- <div class="ps-banner ps-banner--1 bg--cover" data-background="img/banner/home-3/2.jpg"> -->
+                  <!-- <div class="ps-banner__content"> -->
+                    <!-- <h3>Super Delicious Cake</h3>
+                    <p>100% Natural, FRESH baked goods</p> -->
                   </div>
                 </div>
+                <!-- <div class="ps-banner ps-banner--1 bg--cover" data-background="img/banner/home-3/3.jpg">
+                  <div class="ps-banner__content">
+                    <h3>Super Delicious Cake</h3>
+                    <p>100% Natural, FRESH baked goods</p>
+                  </div>
+                </div> -->
               </div>
             </div>
           <div class="ps-section__image bg--cover" data-background="img/bg/home-1/home-best-services-2.jpg"></div>
@@ -234,7 +482,7 @@
                           <div class="ps-product__content"><a class="ps-product__title" href="https://api.whatsapp.com/send?phone=5521987600112&text=" target="_blank">Rústico</a>
                             <p>Nosso carro-chefe tem uma textura única, é macio e delicioso.</p>
                           </div>
-                          <div class="ps-product__price"><span>R$17.00</span></div>
+                          <div class="ps-product__price"><span>R$17.99</span></div>
                         </div>
                       </div>
                       <div class="ps-product--horizontal">
@@ -243,7 +491,7 @@
                           <div class="ps-product__content"><a class="ps-product__title" href="https://api.whatsapp.com/send?phone=5521987600112&text=" target="_blank">Integral</a>
                             <p>Um saboroso pão de forma feito com ingredientes integrais</p>
                           </div>
-                          <div class="ps-product__price"><span>R$21.00</span></div>
+                          <div class="ps-product__price"><span>R$21.99</span></div>
                         </div>
                       </div>
                       <div class="ps-product--horizontal">
@@ -252,7 +500,7 @@
                           <div class="ps-product__content"><a class="ps-product__title" href="https://api.whatsapp.com/send?phone=5521987600112&text=" target="_blank">Canela</a>
                             <p>Rolinhos de canela com geléia de maçã.</p>
                           </div>
-                          <div class="ps-product__price"><span>R$18.00</span></div>
+                          <div class="ps-product__price"><span>R$22.99</span></div>
                         </div>
                       </div>
                     </div>
@@ -263,7 +511,7 @@
                           <div class="ps-product__content"><a class="ps-product__title" href="https://api.whatsapp.com/send?phone=5521987600112&text=" target="_blank">Espinafre</a>
                             <p>Perfeição de equilíbrio com espinafre, requeijão e queijo parmesão.</p>
                           </div>
-                          <div class="ps-product__price"><span>R$23.00</span></div>
+                          <div class="ps-product__price"><span>R$23.99</span></div>
                         </div>
                       </div>
                       <div class="ps-product--horizontal">
@@ -272,7 +520,7 @@
                           <div class="ps-product__content"><a class="ps-product__title" href="https://api.whatsapp.com/send?phone=5521987600112&text=" target="_blank">Parmesão</a>
                             <p>O delicioso sabor do queijo parmesão em todo esse pão.</p>
                           </div>
-                          <div class="ps-product__price"><span>R$23.00</span></div>
+                          <div class="ps-product__price"><span>R$23.99</span></div>
                         </div>
                       </div>
                       <div class="ps-product--horizontal">
@@ -281,7 +529,7 @@
                           <div class="ps-product__content"><a class="ps-product__title" href="https://api.whatsapp.com/send?phone=5521987600112&text=" target="_blank">Grãos</a>
                             <p>Seus grãos são uma fonte de fibras.</p>
                           </div>
-                          <div class="ps-product__price"><span>R$25.00</span></div>
+                          <div class="ps-product__price"><span>R$25.99</span></div>
                         </div>
                       </div>
                     </div>
@@ -296,7 +544,7 @@
                           <div class="ps-product__content"><a class="ps-product__title" href="https://api.whatsapp.com/send?phone=5521987600112&text=" target="_blank">Banana</a>
                             <p>Pão de fermentação natural com recheio de banana.</p>
                           </div>
-                          <div class="ps-product__price"><span>R$25.00</span></div>
+                          <div class="ps-product__price"><span>R$25.99</span></div>
                         </div>
                       </div>
                       <div class="ps-product--horizontal">
@@ -305,7 +553,7 @@
                           <div class="ps-product__content"><a class="ps-product__title" href="https://api.whatsapp.com/send?phone=5521987600112&text=" target="_blank">Doce de Leite</a>
                             <p>Fermentação natural com recheio cremoso de doce de leite.</p>
                           </div>
-                          <div class="ps-product__price"><span>R$25.00</span></div>
+                          <div class="ps-product__price"><span>R$25.99</span></div>
                         </div>
                       </div>
                       <div class="ps-product--horizontal">
@@ -314,7 +562,7 @@
                           <div class="ps-product__content"><a class="ps-product__title" href="https://api.whatsapp.com/send?phone=5521987600112&text=" target="_blank">Goiabada</a>
                             <p>Pão de fermentação natural com recheio de goiabada.</p>
                           </div>
-                          <div class="ps-product__price"><span>R$25.00</span></div>
+                          <div class="ps-product__price"><span>R$25.99</span></div>
                         </div>
                       </div>
                     </div>
@@ -325,7 +573,7 @@
                           <div class="ps-product__content"><a class="ps-product__title" href="https://api.whatsapp.com/send?phone=5521987600112&text=" target="_blank">Frango ou Pernil</a>
                             <p>Recheado com frango com requeijão ou um suculento pernil.</p>
                           </div>
-                          <div class="ps-product__price"><span>R$25.00</span></div>
+                          <div class="ps-product__price"><span>R$25.99</span></div>
                         </div>
                       </div>
                       <div class="ps-product--horizontal">
@@ -334,7 +582,7 @@
                           <div class="ps-product__content"><a class="ps-product__title" href="https://api.whatsapp.com/send?phone=5521987600112&text=" target="_blank">Calabresa</a>
                             <p>O recheio preferido de muita gente.</p>
                           </div>
-                          <div class="ps-product__price"><span>R$25.00</span></div>
+                          <div class="ps-product__price"><span>R$25.99</span></div>
                         </div>
                       </div>
                       <div class="ps-product--horizontal">
@@ -343,7 +591,7 @@
                           <div class="ps-product__content"><a class="ps-product__title" href="https://api.whatsapp.com/send?phone=5521987600112&text=" target="_blank">Queijo e Presunto</a>
                             <p>Recheado com essa dupla imbatível.</p>
                           </div>
-                          <div class="ps-product__price"><span>R$25.00</span></div>
+                          <div class="ps-product__price"><span>R$25.99</span></div>
                         </div>
                       </div>
                     </div>
@@ -358,7 +606,7 @@
                           <div class="ps-product__content"><a class="ps-product__title" href="https://api.whatsapp.com/send?phone=5521987600112&text=" target="_blank">Banana</a>
                             <p>Pão de fermentação natural com recheio de banana.</p>
                           </div>
-                          <div class="ps-product__price"><span>R$17.00</span></div>
+                          <div class="ps-product__price"><span>R$17.99</span></div>
                         </div>
                       </div>
                       <div class="ps-product--horizontal">
@@ -367,7 +615,7 @@
                           <div class="ps-product__content"><a class="ps-product__title" href="https://api.whatsapp.com/send?phone=5521987600112&text=" target="_blank">Doce de Leite</a>
                             <p>Fermentação natural com recheio cremoso de doce de leite.</p>
                           </div>
-                          <div class="ps-product__price"><span>R$17.00</span></div>
+                          <div class="ps-product__price"><span>R$17.99</span></div>
                         </div>
                       </div>
                       <div class="ps-product--horizontal">
@@ -376,7 +624,7 @@
                           <div class="ps-product__content"><a class="ps-product__title" href="https://api.whatsapp.com/send?phone=5521987600112&text=" target="_blank">Goiabada</a>
                             <p>Pão de fermentação natural com recheio de goiabada.</p>
                           </div>
-                          <div class="ps-product__price"><span>R$17.00</span></div>
+                          <div class="ps-product__price"><span>R$17.99</span></div>
                         </div>
                       </div>
                     </div>
@@ -387,7 +635,7 @@
                           <div class="ps-product__content"><a class="ps-product__title" href="https://api.whatsapp.com/send?phone=5521987600112&text=" target="_blank">Frango ou Pernil</a>
                             <p>Recheado com frango com requeijão ou um suculento pernil.</p>
                           </div>
-                          <div class="ps-product__price"><span>R$17.00</span></div>
+                          <div class="ps-product__price"><span>R$17.99</span></div>
                         </div>
                       </div>
                       <div class="ps-product--horizontal">
@@ -396,7 +644,7 @@
                           <div class="ps-product__content"><a class="ps-product__title" href="https://api.whatsapp.com/send?phone=5521987600112&text=" target="_blank">Calabresa</a>
                             <p>O recheio preferido de muita gente.</p>
                           </div>
-                          <div class="ps-product__price"><span>R$17.00</span></div>
+                          <div class="ps-product__price"><span>R$17.99</span></div>
                         </div>
                       </div>
                       <div class="ps-product--horizontal">
@@ -405,7 +653,7 @@
                           <div class="ps-product__content"><a class="ps-product__title" href="https://api.whatsapp.com/send?phone=5521987600112&text=" target="_blank">Queijo e Presunto</a>
                             <p>Recheado com essa dupla imbatível.</p>
                           </div>
-                          <div class="ps-product__price"><span>R$17.00</span></div>
+                          <div class="ps-product__price"><span>R$17.99</span></div>
                         </div>
                       </div>
                     </div>
@@ -420,7 +668,7 @@
                           <div class="ps-product__content"><a class="ps-product__title" href="https://api.whatsapp.com/send?phone=5521987600112&text=" target="_blank">Banana</a>
                             <p>Pão de fermentação natural com recheio de banana.</p>
                           </div>
-                          <div class="ps-product__price"><span>R$9.00</span></div>
+                          <div class="ps-product__price"><span>R$9.99</span></div>
                         </div>
                       </div>
                       <div class="ps-product--horizontal">
@@ -429,7 +677,7 @@
                           <div class="ps-product__content"><a class="ps-product__title" href="https://api.whatsapp.com/send?phone=5521987600112&text=" target="_blank">Doce de Leite</a>
                             <p>Fermentação natural com recheio cremoso de doce de leite.</p>
                           </div>
-                          <div class="ps-product__price"><span>R$9.00</span></div>
+                          <div class="ps-product__price"><span>R$9.99</span></div>
                         </div>
                       </div>
                       <div class="ps-product--horizontal">
@@ -438,7 +686,7 @@
                           <div class="ps-product__content"><a class="ps-product__title" href="https://api.whatsapp.com/send?phone=5521987600112&text=" target="_blank">Goiabada</a>
                             <p>Pão de fermentação natural com recheio de goiabada.</p>
                           </div>
-                          <div class="ps-product__price"><span>R$9.00</span></div>
+                          <div class="ps-product__price"><span>R$9.99</span></div>
                         </div>
                       </div>
                     </div>
@@ -449,7 +697,7 @@
                           <div class="ps-product__content"><a class="ps-product__title" href="https://api.whatsapp.com/send?phone=5521987600112&text=" target="_blank">Frango ou Pernil</a>
                             <p>Recheado com frango com requeijão ou um suculento pernil.</p>
                           </div>
-                          <div class="ps-product__price"><span>R$9.00</span></div>
+                          <div class="ps-product__price"><span>R$9.99</span></div>
                         </div>
                       </div>
                       <div class="ps-product--horizontal">
@@ -458,7 +706,7 @@
                           <div class="ps-product__content"><a class="ps-product__title" href="https://api.whatsapp.com/send?phone=5521987600112&text=" target="_blank">Calabresa</a>
                             <p>O recheio preferido de muita gente.</p>
                           </div>
-                          <div class="ps-product__price"><span>R$9.00</span></div>
+                          <div class="ps-product__price"><span>R$9.99</span></div>
                         </div>
                       </div>
                       <div class="ps-product--horizontal">
@@ -467,7 +715,7 @@
                           <div class="ps-product__content"><a class="ps-product__title" href="https://api.whatsapp.com/send?phone=5521987600112&text=" target="_blank">Queijo e Presunto</a>
                             <p>Recheado com essa dupla imbatível.</p>
                           </div>
-                          <div class="ps-product__price"><span>R$9.00</span></div>
+                          <div class="ps-product__price"><span>R$9.99</span></div>
                         </div>
                       </div>
                     </div>
@@ -479,19 +727,192 @@
         </div>
         <div class="ps-section__right bg--cover" data-background="img/bg/home-1/home-menu-of-day.jpg"></div>
       </div>
+      <!-- <div class="ps-section ps-home-product">
+        <div class="container-fluid">
+          <div class="ps-section__header">
+            <p>Breads every day</p>
+            <h3>Special Cake</h3><i class="chikery-tt3"></i>
+          </div>
+          <div class="ps-section__content">
+            <div class="row">
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 ">
+                <div class="ps-product">
+                  <div class="ps-product__thumbnail"><img src="img/product/17.png" alt=""/><a class="ps-product__overlay" href="product-default.html"></a><span class="ps-badge ps-badge--sale"><i>30%</i></span>
+                  </div>
+                  <div class="ps-product__content">
+                    <div class="ps-product__desc"><a class="ps-product__title" href="product-default.html">Red sugar flower</a>
+                      <p><span>350g</span><span>30 Min</span><span>120 <sup>o</sup>C</span></p><span class="ps-product__price sale"><del>$16.00</del> $12.00</span>
+                    </div>
+                    <div class="ps-product__shopping"><a class="ps-btn ps-product__add-to-cart" href="#">Add to cart</a>
+                      <div class="ps-product__actions"><a href="#"><i class="fa fa-heart-o"></i></a><a href="#"><i class="fa fa-random"></i></a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 ">
+                <div class="ps-product">
+                  <div class="ps-product__thumbnail"><img src="img/product/31.png" alt=""/><a class="ps-product__overlay" href="product-default.html"></a>
+                  </div>
+                  <div class="ps-product__content">
+                    <div class="ps-product__desc"><a class="ps-product__title" href="product-default.html">Red sugar flower</a>
+                      <p><span>350g</span><span>30 Min</span><span>120 <sup>o</sup>C</span></p><span class="ps-product__price">$12.00</span>
+                    </div>
+                    <div class="ps-product__shopping"><a class="ps-btn ps-product__add-to-cart" href="#">Add to cart</a>
+                      <div class="ps-product__actions"><a href="#"><i class="fa fa-heart-o"></i></a><a href="#"><i class="fa fa-random"></i></a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 ">
+                <div class="ps-product">
+                  <div class="ps-product__thumbnail"><img src="img/product/13.png" alt=""/><a class="ps-product__overlay" href="product-default.html"></a><span class="ps-badge ps-badge--new"><i>New</i></span>
+                  </div>
+                  <div class="ps-product__content">
+                    <div class="ps-product__desc"><a class="ps-product__title" href="product-default.html">Red sugar flower</a>
+                      <p><span>350g</span><span>30 Min</span><span>120 <sup>o</sup>C</span></p><span class="ps-product__price">$12.00</span>
+                    </div>
+                    <div class="ps-product__shopping"><a class="ps-btn ps-product__add-to-cart" href="#">Add to cart</a>
+                      <div class="ps-product__actions"><a href="#"><i class="fa fa-heart-o"></i></a><a href="#"><i class="fa fa-random"></i></a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 ">
+                <div class="ps-product">
+                  <div class="ps-product__thumbnail"><img src="img/product/33.png" alt=""/><a class="ps-product__overlay" href="product-default.html"></a>
+                  </div>
+                  <div class="ps-product__content">
+                    <div class="ps-product__desc"><a class="ps-product__title" href="product-default.html">Red sugar flower</a>
+                      <p><span>350g</span><span>30 Min</span><span>120 <sup>o</sup>C</span></p><span class="ps-product__price">$12.00</span>
+                    </div>
+                    <div class="ps-product__shopping"><a class="ps-btn ps-product__add-to-cart" href="#">Add to cart</a>
+                      <div class="ps-product__actions"><a href="#"><i class="fa fa-heart-o"></i></a><a href="#"><i class="fa fa-random"></i></a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ps-section__footer"><a class="ps-btn ps-btn--outline" href="#"> All products</a></div>
+        </div>
+      </div> -->
+
+      <!-- <div class="ps-section ps-testimonials bg--cover" data-background="img/bg/testimonials.jpg">
+        <div class="container">
+          <div class="ps-section__header">
+            <p>Depoimentos</p>
+            <h3>O que as pessoas estão dizendo</h3><i class="chikery-tt3"></i>
+          </div>
+          <div class="ps-section__content">
+            <div class="ps-carousel--dots-2 owl-slider" data-owl-auto="true" data-owl-loop="true" data-owl-speed="5000" data-owl-gap="0" data-owl-nav="false" data-owl-dots="true" data-owl-item="1" data-owl-item-xs="1" data-owl-item-sm="1" data-owl-item-md="1" data-owl-item-lg="1" data-owl-duration="1000" data-owl-mousedrag="on">
+              <div class="ps-block--testimonial">
+                <div class="ps-block__content">
+                  <p>Eu tenho uma reclamação! Vocês tem que parar de fazer coisas gostosas senão não tem dieta que dê jeito...rsrs</p>
+                </div>
+                <div class="ps-block__footer">
+                  <p>Marfisa</p>
+                </div>
+              </div>
+              <div class="ps-block--testimonial">
+                <div class="ps-block__content">
+                  <p>Amamos...um sucesso. Não passei mal, coisa que pães normais me fazem.</p>
+                </div>
+                <div class="ps-block__footer">
+                  <p>Aline B. S.</p>
+                </div>
+              </div>
+              <div class="ps-block--testimonial">
+                <div class="ps-block__content">
+                  <p>Que delícia de pão... vou te falar, gostoso mesmo, misericórdia... muito gostoso, muito bom mesmo!!!</p>
+                </div>
+                <div class="ps-block__footer">
+                  <p>Regina</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
       
       <div class="ps-home-banner">
         <div class="" data-owl-auto="true" data-owl-loop="true" data-owl-speed="5000" data-owl-gap="0" data-owl-nav="true" data-owl-dots="true" data-owl-item="1" data-owl-item-xs="1" data-owl-item-sm="1" data-owl-item-md="1" data-owl-item-lg="1" data-owl-duration="1000" data-owl-mousedrag="off" data-owl-animate-in="fadeIn" data-owl-animate-out="fadeOut">
           <div class="ps-banner ps-banner--1 bg--cover" data-background="img/banner/home-3/3.png">
             <div class="ps-banner__content">
               <h3>Curta nossa página no <a href="https://www.facebook.com/viepanncg" target="_blank"><h3>Facebook</h3></a> E siga-nos no <a href="https://www.instagram.com/viepann" target="_blank"><h3>Instagram</h3></a></h3>
+              <!-- <p>100% Natural, FRESH baked goods</p> -->
             </div>
           </div>
+          <!-- <div class="ps-banner ps-banner--1 bg--cover" data-background="img/banner/home-3/2.jpg"> -->
+            <!-- <div class="ps-banner__content"> -->
+              <!-- <h3>Super Delicious Cake</h3>
+              <p>100% Natural, FRESH baked goods</p> -->
             </div>
           </div>
+          <!-- <div class="ps-banner ps-banner--1 bg--cover" data-background="img/banner/home-3/3.jpg">
+            <div class="ps-banner__content">
+              <h3>Super Delicious Cake</h3>
+              <p>100% Natural, FRESH baked goods</p>
+            </div>
+          </div> -->
         </div>
       </div>
 
+      <!-- <div class="ps-home-book-table">
+        <div class="ps-section__left bg--cover" data-background="img/section/book-your-tables/bg.jpg">
+          <div class="ps-section__content">
+            <p>Video Present</p>
+            <h3>Any Design <br/> For Your Feast-day</h3>
+            <div class="ps-video"><a href="https://www.youtube.com/watch?v=2_g48Zw0rao"><i class="fa fa-play"></i></a></div>
+          </div>
+        </div>
+        <div class="ps-section__right">
+          <form class="ps-form--book-your-table" action="#" method="get">
+            <div class="ps-form__header">
+              <h4>Chikery Cake</h4>
+              <h3>Book your table</h3><i class="chikery-tt3"></i>
+              <p>Book your table now online and get a confirmation in second. For bar and terrace booking, please contact us directly via<span> (+334) 3445445</span></p>
+            </div>
+            <div class="ps-form__content">
+              <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 ">
+                  <div class="form-group">
+                    <input class="form-control" type="text" placeholder="Name">
+                  </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 ">
+                  <div class="form-group">
+                    <input class="form-control" type="text" placeholder="Phone">
+                  </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 ">
+                  <div class="form-group">
+                    <input class="form-control" type="email" placeholder="Email">
+                  </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 ">
+                  <div class="form-group">
+                    <input class="form-control" type="text" placeholder="Number of People">
+                  </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 ">
+                  <div class="form-group">
+                    <input class="form-control" type="text" placeholder="Date">
+                  </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 ">
+                  <div class="form-group">
+                    <input class="form-control" type="text" placeholder="Time">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ps-form__footer">
+              <button class="ps-btn">Book Now</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div> -->
     <footer class="ps-footer">
       <div class="ps-footer__content">
         <div class="container">
@@ -511,6 +932,8 @@
               <p>Sua Padaria Artesanal Online. Peça e Receba em Casa.</p>
               <p>Bairro Adriana - Campo Grande - Rio de Janeiro</p>
 
+              <!-- <p>Email:<a href="#"> <span class="__cf_email__" data-cfemail="4a23242c250a24253f3e222f272f3964292527">[email&#160;protected]</span></a></p> -->
+              <!-- <p>Phone:<span class="ps-hightlight"> +455 45 454555</span></p> -->
             </div>
           </div>
           <div class="ps-footer__right">
@@ -518,10 +941,12 @@
               <h3 class="widget-title">Nossos Horários</h3>
               <p>Segunda à Domingo:  <span>09:00 - 20:00</span></p>
 <!--               <p>Domingos e Feriados:  <span>09:30 - 19:00</span></p> -->
-
-
-
-              
+              <!-- <ul class="ps-list--payment-method">
+                <li><a href="#"><i class="fa fa-cc-mastercard"></i></a></li>
+                <li><a href="#"><i class="fa fa-cc-visa"></i></a></li>
+                <li><a href="#"><i class="fa fa-cc-paypal"></i></a></li>
+                <li><a href="#"><i class="fa fa-cc-discover"></i></a></li>
+              </ul> -->
             </aside>
           </div>
         </div>
@@ -530,9 +955,13 @@
         <div class="container">
           <ul class="ps-list--social">
             
+            <!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li> -->
+            <!-- <li><a href="#"><i class="fa fa-google-plus"></i></a></li> -->
             <li><a href="https://www.facebook.com/viepanncg" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <!-- <li><a href="#"><i class="fa fa-youtube-play"></i></a></li> -->
             <li><a href="https://instagram.com/viepann" target="_blank"><i class="fa fa-instagram"></i></a></li>
           </ul>
+          <!-- <p><a href="https://www.templateshub.net" target="_blank">Templates Hub</a></p> -->
         </div>
       </div>
     </footer>
@@ -592,8 +1021,8 @@
     <script src="plugins/gmap3.min.js"></script>
     <!-- Custom scripts-->
     <script src="js/main.js"></script>
-<!--     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxflHHc5FlDVI-J71pO7hM1QJNW1dRp4U&amp;region=GB"></script>
- -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxflHHc5FlDVI-J71pO7hM1QJNW1dRp4U&amp;region=GB"></script>
+
     <!-- <a href="https://api.whatsapp.com/send?phone=5521987600112&text=Olá!%20Encontrei%20seu%20site%20na%20Internet%20e%20preciso%20de%20seus%20serviços." class="float" target="_blank" onclick="goog_report_conversion('https://api.whatsapp.com/send?phone=554899999999&text=Olá!%20Entrei%20em%20seu%20site%20e%20preciso%20de%20seus%20serviços.')">
       <i class="fa fa-whatsapp my-float"></i>
       </a> -->
